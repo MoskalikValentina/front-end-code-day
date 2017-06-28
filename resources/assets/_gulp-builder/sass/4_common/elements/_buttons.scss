@@ -1,0 +1,22 @@
+.btn{
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 6px;
+	background-color:  $c-btn;
+	color: $c-inverse;
+	padding: 20px 30px;
+	font-size: 20px;
+	font-weight: 600;
+	outline:none;
+	transition: background .3s;
+	&:hover{
+		background-color: darken($c-btn, 10% );
+	}
+	&:active{
+		background-color: lighten($c-btn, 5% );
+	}
+	&:focus{
+		outline:none;
+	}
+
+}

@@ -1,0 +1,22 @@
+.products-desc{
+	text-align: center;
+	padding: 115px 0 170px;
+	&-container{
+		@extend .container;
+
+	}
+	&-ic{
+		display: inline-block;
+		margin-bottom: 35px;
+	}
+	&-txt{
+		font-size: 56px;
+		font-weight: lighter;
+		max-width: 840px;
+		margin: 0 auto;
+	}
+	&-btn{
+		@extend .btn;
+		margin-top: 80px;
+	}
+}
