@@ -3,3 +3,12 @@
 //Use for include css config files
  
 @import 'functions';
+
+//Fonts 
+@include add-font('../fonts/OpenSans-Regular', 'OpenSans', normal, normal);
+@include add-font('../fonts/OpenSans-Bold', 'OpenSans', normal, bold);
+@include add-font('../fonts/OpenSans-Light', 'OpenSans', normal, lighter);
+@include add-font('../fonts/OpenSans-Semibold', 'OpenSans', normal, 600);
+
+//variable fonts 
+$base-font: 'OpenSans', Arial, sans-serif;
